@@ -1,0 +1,26 @@
+setting dmc scratch directory
+
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript1.sh
+  The time limit is 00:60:00 HH:MM:SS.
+  The target directory is: /home/uabclsa0014/hw4
+  The working directory is:  /scratch-local/uabclsa0014.myscript1shSCRIPT.577242
+  The memory limit is: 2gb
+  The job will start running after: 2021-04-02T23:42:11
+  Job Name: myscript1shSCRIPT
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: --constraint=dmc
+  Using  2  cores on master node  dmc5
+  Node list:  dmc5
+  Nodes:  dmc5 dmc5
+  Command typed:
+/apps/scripts/run_script_mpi myscript1.sh
+  Queue submit command:
+sbatch --qos=class -J myscript1shSCRIPT --begin=2021-04-02T23:42:11 --requeue --mail-user=b0159342@uab.edu -o myscript1shSCRIPT.o577242 -t 00:60:00 -n 2 --mem-per-cpu=1000 --constraint=dmc
+
+running for 2 process
+The program took 945.641640 seconds to execute
+~                                              

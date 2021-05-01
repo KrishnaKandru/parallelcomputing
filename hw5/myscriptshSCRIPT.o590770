@@ -1,0 +1,108 @@
+setting dmc scratch directory
+
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 00:30:00 HH:MM:SS.
+  The target directory is: /home/uabclsa0014/hw5
+  The working directory is:  /scratch-local/uabclsa0014.myscriptshSCRIPT.590770
+  The memory limit is: 20gb
+  The job will start running after: 2021-04-22T10:06:10
+  Job Name: myscriptshSCRIPT
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: --constraint=dmc
+  Using  20  cores on master node  dmc6
+  Node list:  dmc6
+  Nodes:  dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6
+  Command typed:
+/apps/scripts/run_script_mpi myscript.sh
+  Queue submit command:
+sbatch --qos=class -J myscriptshSCRIPT --begin=2021-04-22T10:06:10 --requeue --mail-user=b0159342@uab.edu -o myscriptshSCRIPT.o590770 -t 00:30:00 -n 20 --mem-per-cpu=1000 --constraint=dmc
+
+running for 1 process
+Time taken for  32 bytes is=1.599e-06
+Time taken for  64 bytes is=8.5e-08
+Time taken for  128 bytes is=2.6e-08
+Time taken for  256 bytes is=3.2e-08
+Time taken for  512 bytes is=3.2e-08
+Time taken for  1024 bytes is=3.1e-08
+Time taken for  2048 bytes is=3.2e-08
+Time taken for  4096 bytes is=3.3e-08
+Time taken for  8192 bytes is=2.6e-08
+Time taken for  16384 bytes is=3.3e-08
+Time taken for  32768 bytes is=4.9e-08
+Time taken for  65536 bytes is=3.3e-08
+Time taken for  131072 bytes is=3.7e-08
+Time taken for  262144 bytes is=3.4e-08
+Time taken for  524288 bytes is=3.7e-08
+Time taken for  1048576 bytes is=4e-08
+running for 2 process
+Time taken for  32 bytes is=1.776e-06
+Time taken for  64 bytes is=6.3e-08
+Time taken for  128 bytes is=3.6e-08
+Time taken for  256 bytes is=3.3e-08
+Time taken for  512 bytes is=3.3e-08
+Time taken for  1024 bytes is=4.6e-08
+Time taken for  2048 bytes is=3.8e-08
+Time taken for  4096 bytes is=4.7e-08
+Time taken for  8192 bytes is=4.2e-08
+Time taken for  16384 bytes is=3.4e-08
+Time taken for  32768 bytes is=8.6e-08
+Time taken for  65536 bytes is=6.8e-08
+Time taken for  131072 bytes is=6.8e-08
+Time taken for  262144 bytes is=6.1e-08
+Time taken for  524288 bytes is=4.6e-08
+Time taken for  1048576 bytes is=1.03e-07
+running for 4 process
+Time taken for  32 bytes is=8.691e-06
+Time taken for  64 bytes is=7.1e-08
+Time taken for  128 bytes is=4e-08
+Time taken for  256 bytes is=3.9e-08
+Time taken for  512 bytes is=4.1e-08
+Time taken for  1024 bytes is=4.9e-08
+Time taken for  2048 bytes is=4.6e-08
+Time taken for  4096 bytes is=4.6e-08
+Time taken for  8192 bytes is=6.9e-08
+Time taken for  16384 bytes is=6.9e-08
+Time taken for  32768 bytes is=5e-08
+Time taken for  65536 bytes is=5.1e-08
+Time taken for  131072 bytes is=6.7e-08
+Time taken for  262144 bytes is=7.6e-08
+Time taken for  524288 bytes is=8.6e-08
+Time taken for  1048576 bytes is=1.17e-07
+running for 8 process
+Time taken for  32 bytes is=9.871e-06
+Time taken for  64 bytes is=7.9e-08
+Time taken for  128 bytes is=4.2e-08
+Time taken for  256 bytes is=4.2e-08
+Time taken for  512 bytes is=5.3e-08
+Time taken for  1024 bytes is=8.4e-08
+Time taken for  2048 bytes is=5.9e-08
+Time taken for  4096 bytes is=8.2e-08
+Time taken for  8192 bytes is=9.9e-08
+Time taken for  16384 bytes is=6.7e-08
+Time taken for  32768 bytes is=7.8e-08
+Time taken for  65536 bytes is=1.35e-07
+Time taken for  131072 bytes is=1.12e-07
+Time taken for  262144 bytes is=1.36e-07
+Time taken for  524288 bytes is=1.19e-07
+Time taken for  1048576 bytes is=1.13e-07
+running for 16 process
+Time taken for  32 bytes is=4.1813e-05
+Time taken for  64 bytes is=8.9e-08
+Time taken for  128 bytes is=5.3e-08
+Time taken for  256 bytes is=5.2e-08
+Time taken for  512 bytes is=1.44e-07
+Time taken for  1024 bytes is=6.4e-08
+Time taken for  2048 bytes is=8.4e-08
+Time taken for  4096 bytes is=7.9e-08
+Time taken for  8192 bytes is=6.2e-08
+Time taken for  16384 bytes is=7.2e-08
+Time taken for  32768 bytes is=8.8e-08
+Time taken for  65536 bytes is=2.86e-07
+Time taken for  131072 bytes is=1.08e-07
+Time taken for  262144 bytes is=2.54e-07
+Time taken for  524288 bytes is=1.17e-07
+Time taken for  1048576 bytes is=3.25e-07

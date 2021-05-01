@@ -1,0 +1,24 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 00:60:00 HH:MM:SS.
+  The target directory is: /home/uabclsa0014/hw3
+  The working directory is:  /scratch-local/uabclsa0014.myscriptshSCRIPT.569880
+  The memory limit is: 20gb
+  The job will start running after: 2021-03-16T16:28:15
+  Job Name: myscriptshSCRIPT
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: --constraint=dmc
+  Using  20  cores on master node  dmc51
+  Node list:  dmc51
+  Nodes:  dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51 dmc51
+  Command typed:
+/apps/scripts/run_script myscript.sh     
+  Queue submit command:
+sbatch --qos=class -J myscriptshSCRIPT --begin=2021-03-16T16:28:15 --requeue --mail-user=b0159342@uab.edu -o myscriptshSCRIPT.o569880 -t 00:60:00 -N 1-1 -n 20 --mem-per-cpu=1000 --constraint=dmc 
+20 threads
+The program took 20.079190 seconds to execute

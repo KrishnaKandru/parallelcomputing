@@ -1,0 +1,108 @@
+setting dmc scratch directory
+
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 00:30:00 HH:MM:SS.
+  The target directory is: /home/uabclsa0014/hw5
+  The working directory is:  /scratch-local/uabclsa0014.myscriptshSCRIPT.590568
+  The memory limit is: 20gb
+  The job will start running after: 2021-04-21T18:03:42
+  Job Name: myscriptshSCRIPT
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: --constraint=dmc
+  Using  20  cores on master node  dmc6
+  Node list:  dmc6
+  Nodes:  dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6 dmc6
+  Command typed:
+/apps/scripts/run_script_mpi myscript.sh
+  Queue submit command:
+sbatch --qos=class -J myscriptshSCRIPT --begin=2021-04-21T18:03:42 --requeue --mail-user=b0159342@uab.edu -o myscriptshSCRIPT.o590568 -t 00:30:00 -n 20 --mem-per-cpu=1000 --constraint=dmc
+
+running for 1 process
+time taken for 32 bytes is 0.00017529
+time taken for 64 bytes is 3.3805e-05
+time taken for 128 bytes is 4.748e-05
+time taken for 256 bytes is 5.8939e-05
+time taken for 512 bytes is 4.6136e-05
+time taken for 1024 bytes is 5.1347e-05
+time taken for 2048 bytes is 6.2758e-05
+time taken for 4096 bytes is 0.000117736
+time taken for 8192 bytes is 0.000205697
+time taken for 16384 bytes is 0.000336324
+time taken for 32768 bytes is 0.000682057
+time taken for 65536 bytes is 0.00203424
+time taken for 131072 bytes is 0.00409891
+time taken for 262144 bytes is 0.0259541
+time taken for 524288 bytes is 0.0506942
+time taken for 1048576 bytes is 0.101344
+running for 2 process
+time taken for 32 bytes is 0.000320561
+time taken for 64 bytes is 8.0477e-05
+time taken for 128 bytes is 9.6017e-05
+time taken for 256 bytes is 0.000133365
+time taken for 512 bytes is 0.000104524
+time taken for 1024 bytes is 0.000226292
+time taken for 2048 bytes is 0.000312338
+time taken for 4096 bytes is 0.000522375
+time taken for 8192 bytes is 0.000906021
+time taken for 16384 bytes is 0.00172685
+time taken for 32768 bytes is 0.00371552
+time taken for 65536 bytes is 0.00732584
+time taken for 131072 bytes is 0.0143896
+time taken for 262144 bytes is 0.0468085
+time taken for 524288 bytes is 0.0931491
+time taken for 1048576 bytes is 0.185049
+running for 4 process
+time taken for 32 bytes is 0.000329966
+time taken for 64 bytes is 0.000327715
+time taken for 128 bytes is 0.000156535
+time taken for 256 bytes is 0.000211756
+time taken for 512 bytes is 0.000225852
+time taken for 1024 bytes is 0.000457593
+time taken for 2048 bytes is 0.000650707
+time taken for 4096 bytes is 0.00102697
+time taken for 8192 bytes is 0.00179391
+time taken for 16384 bytes is 0.00331261
+time taken for 32768 bytes is 0.00647312
+time taken for 65536 bytes is 0.0132049
+time taken for 131072 bytes is 0.024122
+time taken for 262144 bytes is 0.0675226
+time taken for 524288 bytes is 0.133546
+time taken for 1048576 bytes is 0.303718
+running for 8 process
+time taken for 32 bytes is 0.000631564
+time taken for 64 bytes is 0.000539733
+time taken for 128 bytes is 0.000294709
+time taken for 256 bytes is 0.000352087
+time taken for 512 bytes is 0.000433352
+time taken for 1024 bytes is 0.000957536
+time taken for 2048 bytes is 0.00132396
+time taken for 4096 bytes is 0.00212321
+time taken for 8192 bytes is 0.00375884
+time taken for 16384 bytes is 0.00680777
+time taken for 32768 bytes is 0.0128617
+time taken for 65536 bytes is 0.0250753
+time taken for 131072 bytes is 0.0487537
+time taken for 262144 bytes is 0.117406
+time taken for 524288 bytes is 0.283484
+time taken for 1048576 bytes is 0.614895
+running for 16 process
+time taken for 32 bytes is 0.001201
+time taken for 64 bytes is 0.000754748
+time taken for 128 bytes is 0.000651373
+time taken for 256 bytes is 0.000819972
+time taken for 512 bytes is 0.000971454
+time taken for 1024 bytes is 0.00255744
+time taken for 2048 bytes is 0.00318627
+time taken for 4096 bytes is 0.00506465
+time taken for 8192 bytes is 0.00869894
+time taken for 16384 bytes is 0.0157104
+time taken for 32768 bytes is 0.0298663
+time taken for 65536 bytes is 0.0574855
+time taken for 131072 bytes is 0.113408
+time taken for 262144 bytes is 0.27738
+time taken for 524288 bytes is 0.64231
+time taken for 1048576 bytes is 1.28081
